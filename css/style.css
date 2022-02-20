@@ -1,0 +1,194 @@
+body {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+.slides-navigation {
+    z-index: 6;
+}
+
+.slides-navigation .prev,
+.slides-navigation .next {
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+    left: 20px;
+    background-image: url(../images/icons/prev.png);
+}
+
+.slides-navigation a.next {
+    right: 20px;
+    background-image: url(../images/icons/next.png);
+}
+
+.titleMessage {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.titleMessage .heading p{
+    color: #000;
+    text-shadow: 0px 2px 5px rgb(0 0 0 / 40%);
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+
+.name {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.sub {
+    font-size: 25px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.section {
+    padding: 100px 0px;
+}
+
+.me-image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+   
+}
+
+.hi-there {
+    font-family: 'Oooh Baby', cursive;
+    color: #151515;
+    letter-spacing: 3px; 
+    font-size: 2.8rem;
+    color: #781C68;
+}
+
+.hester {
+    color: #9A0680;
+}
+
+.intro {
+    color: #151515;
+    letter-spacing: 3px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+
+}
+
+.about-me {
+    color:#151515;
+    font-family: futura-pt, sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.7;
+   
+}
+
+.skillsSection {
+    background-color: #9A0680;
+    color: #fff;
+    font-family: futura-pt, sans-serif;
+    font-weight: 100;
+}
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.skill h4 {
+    margin-top: 30px;
+}
+
+.chart {
+    text-align: center;
+    position: relative;
+    width: 152px;
+    height: 152;
+    display: inline-block;
+    
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+    color:#FFD39A;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.chart .percent::after {
+    content: '%';
+}
+
+.skill-p {
+    margin-bottom: 40px;
+}
+
+.squareItem {
+    margin-top: 30px;
+    position: relative;
+}
+
+.squareInCon {
+    position:relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #444;
+    border-top: none;
+}
+
+.squareInCon:before,
+.squareInCon:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    border-bottom: solid 2px #444;
+}
+
+.squareInCon:before {
+    right: 0px;
+}
+
+.squareInCon:after {
+    left: 0px;
+}
+
+.squareContent h2{
+    font-family: futura-pt, sans-serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #781C68;
+}
+
+.squareContent h3{
+    font-family: futura-pt, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
